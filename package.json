@@ -1,6 +1,6 @@
 {
   "name": "dungeon-hubot",
-  "version": "0.0.0",
+  "version": "0.1",
   "private": true,
   "author": "Neemias Freitas <neemiasvf@gmail.com>",
   "description": "dungeon.gg's all-purpose bot",

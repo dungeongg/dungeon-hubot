@@ -4,9 +4,8 @@ set -e
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
-export HUBOT_DISCOURSE_USERNAME=Nemesis
-export HUBOT_DISCOURSE_KEY=91674621e9841c46d8be5c98a32af52c6499cf41420a8008635225dac8f96b14
+export HUBOT_DISCOURSE_USERNAME=npc
+export HUBOT_DISCOURSE_KEY=79316dd082dd115436f0aa3d9a12885b641b7b0df69dd8cbd4ff4fa59a57af0f
 export HUBOT_DISCOURSE_SERVER=https://dungeon.gg/
-
 
 exec node_modules/.bin/hubot --name "dungeon-hubot" "$@"
